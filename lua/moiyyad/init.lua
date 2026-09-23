@@ -1,6 +1,7 @@
 require("moiyyad.set")
 require("moiyyad.remap")
 require("moiyyad.lazy_init")
+require("moiyyad.modes")
 
 local augroup = vim.api.nvim_create_augroup
 local autocmd = vim.api.nvim_create_autocmd
